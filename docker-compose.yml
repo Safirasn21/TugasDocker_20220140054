@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    image: tugasdocker-20220140054
+    container_name: TugasDocker_20220140054
+    ports:
+      - "8080:8080"
